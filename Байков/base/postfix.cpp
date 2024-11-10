@@ -14,7 +14,7 @@ void TPostfix::SetInfix(const string& expr)
 {
     for (char c : expr) {
         if (!IsValidCharacter(c) && !isspace(c)) {
-            throw invalid_argument("Invalid character in expression.");
+            throw invalid_argument("Недопустимый символ в выражении.");
         }
     }
     infix = expr;
@@ -58,7 +58,7 @@ void TPostfix::ToPostfix()
                 operators.pop();
             }
             if (operators.empty() || operators.top() != '(') {
-                throw invalid_argument("Mismatched parentheses.");
+                throw invalid_argument("Несоответствующие скобки.");
             }
             operators.pop();
         }
@@ -84,7 +84,7 @@ double TPostfix::Calculate()
         }
         else if (IsOperator(c)) {  // Если символ - оператор
             if (operands.size() < 2) {
-                throw invalid_argument("Not enough operands.");
+                throw invalid_argument("Недостаточно операндов.");
             }
             double b = operands.top(); operands.pop();
             double a = operands.top(); operands.pop();
@@ -94,18 +94,18 @@ double TPostfix::Calculate()
             case '*': operands.push(a * b); break;
             case '/':
                 if (b == 0) {
-                    throw invalid_argument("Division by zero.");
+                    throw invalid_argument("Деление на ноль.");
                 }
                 operands.push(a / b);
                 break;
             default:
-                throw invalid_argument("Unknown operator.");
+                throw invalid_argument("Неизвестный оператор.");
             }
         }
     }
 
     if (operands.size() != 1) {
-        throw invalid_argument("Invalid postfix expression.");
+        throw invalid_argument("Неверное постфиксное выражение.");
     }
 
     return operands.top();  // Возвращаем результат

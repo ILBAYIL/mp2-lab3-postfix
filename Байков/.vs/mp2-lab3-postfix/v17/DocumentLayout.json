@@ -15,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{F266A6B4-CBC2-41C0-9F55-056959ABA352}|base_test\\base_test.vcxproj|solutionrelative:base_test\\test_tpostfix.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4854D7B0-72B7-4276-BE33-BFADBC979165}|base\\base.vcxproj|S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4854D7B0-72B7-4276-BE33-BFADBC979165}|base\\base.vcxproj|solutionrelative:base\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F266A6B4-CBC2-41C0-9F55-056959ABA352}|base_test\\base_test.vcxproj|S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base_test\\test_tstack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F266A6B4-CBC2-41C0-9F55-056959ABA352}|base_test\\base_test.vcxproj|solutionrelative:base_test\\test_tstack.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4854D7B0-72B7-4276-BE33-BFADBC979165}|base\\base.vcxproj|S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4854D7B0-72B7-4276-BE33-BFADBC979165}|base\\base.vcxproj|solutionrelative:base\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "stack.h",
               "DocumentMoniker": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\stack.h",
               "RelativeDocumentMoniker": "base\\stack.h",
               "ToolTip": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\stack.h",
               "RelativeToolTip": "base\\stack.h",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-06T18:31:05.561Z",
               "IsPinned": true,
@@ -54,7 +54,7 @@
               "RelativeDocumentMoniker": "base\\postfix.h",
               "ToolTip": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\postfix.h",
               "RelativeToolTip": "base\\postfix.h",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-06T18:31:11.089Z",
               "IsPinned": true,
@@ -68,20 +68,20 @@
               "RelativeDocumentMoniker": "base\\sample_postfix.cpp",
               "ToolTip": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base\\sample_postfix.cpp",
               "RelativeToolTip": "base\\sample_postfix.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-06T18:33:04.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "test_tstack.cpp",
               "DocumentMoniker": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base_test\\test_tstack.cpp",
               "RelativeDocumentMoniker": "base_test\\test_tstack.cpp",
               "ToolTip": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base_test\\test_tstack.cpp",
               "RelativeToolTip": "base_test\\test_tstack.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAA6wAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-06T18:33:51.313Z",
               "EditorCaption": ""
@@ -94,7 +94,7 @@
               "RelativeDocumentMoniker": "base_test\\test_tpostfix.cpp",
               "ToolTip": "S:\\pr\\Project3\\mp2-lab3-postfix\\\u0411\u0430\u0439\u043A\u043E\u0432\\base_test\\test_tpostfix.cpp",
               "RelativeToolTip": "base_test\\test_tpostfix.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-06T18:33:30.789Z",
               "EditorCaption": ""

@@ -36,19 +36,19 @@ public:
 
     void Push(const T& value)
     {
-        if (IsFull()) throw "Stack is full!";
+        if (IsFull()) throw "Cтек переполнен!";
         pMem[++top] = value;
     }
 
     T Pop()
     {
-        if (IsEmpty()) throw "Stack is empty!";
+        if (IsEmpty()) throw "Стек пуст!";
         return pMem[top--];
     }
 
     T Top() const
     {
-        if (IsEmpty()) throw "Stack is empty!";
+        if (IsEmpty()) throw "Стек пуст!";
         return pMem[top];
     }
 
